@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1002%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(57%2c 91%2c 100%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c405.17C95.605%2c422.172%2c201.035%2c492.42%2c283.198%2c440.665C365.202%2c389.01%2c348.011%2c263.961%2c372.883%2c170.29C393.326%2c93.299%2c417.298%2c19.825%2c416.091%2c-59.825C414.741%2c-148.892%2c422.08%2c-247.907%2c365.502%2c-316.709C308.684%2c-385.803%2c205.765%2c-384.431%2c122.425%2c-416.94C29.566%2c-453.162%2c-58.027%2c-551.048%2c-152.301%2c-518.69C-247.444%2c-486.033%2c-246.455%2c-346.59%2c-309.917%2c-268.544C-370.448%2c-194.102%2c-476.78%2c-162.341%2c-513.978%2c-73.899C-555.273%2c24.283%2c-583.352%2c150.991%2c-523.397%2c239.027C-462.428%2c328.552%2c-328.343%2c317.5%2c-225.105%2c350.271C-149.969%2c374.122%2c-77.613%2c391.368%2c0%2c405.17' fill='%232e4950'%3e%3c/path%3e%3cpath d='M1440 1106.9850000000001C1542.1779999999999 1095.676 1639.972 1060.837 1722.317 999.294 1800.98 940.5029999999999 1840.851 849.86 1894.284 767.4639999999999 1957.8110000000001 669.503 2077.377 586.216 2065.518 470.06399999999996 2053.71 354.411 1908.382 307.669 1837.8980000000001 215.219 1760.819 114.11700000000002 1744.1399999999999-35.551000000000045 1632.99-97.26400000000001 1516.421-161.98699999999997 1366.068-163.539 1241.539-115.89599999999996 1120.252-69.49300000000005 1034.681 41.03800000000001 972.919 155.272 918.835 255.30599999999998 944.675 374.528 916.782 484.773 884.362 612.909 753.602 728.902 796.121 854.05 838.011 977.348 993.242 1018.9590000000001 1114.446 1066.5720000000001 1218.329 1107.38 1329.066 1119.263 1440 1106.9850000000001' fill='%23446d78'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1002'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+}
+section{
+    height:60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.form-container{
+    height:75%;
+    width:35%;
+    background-color: #efefef;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    border-radius: 7px;
+    border: 2px solid black;
+
+}
+.form-container h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+  color: #38494b;
+}
+.form-container form{
+    height: 85%;
+    width: 90%;
+    /* background-color:; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.form-container form table tr td input {
+    height: 5vh;
+    width: 25vw;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+.form-container form table tr td label{
+    font-size: 20px;
+     color: #38494b;
+}
+/* table tr{
+    height: 5vh;
+    width: 25vw;
+} */
+table {
+    height: 100%;
+    width: 100%;
+}
+table tr td:nth-child(2){
+    padding-left: 10px;
+    padding-right: 10px;
+}
+form table tr td input{
+    padding-left: 10px;
+    font-size: 18px;
+}
+form table tr td input:focus{
+    outline: 1px solid #7D9D9C;
+}
+
+button{
+    height: 5vh;
+    width: 50%;
+    margin-left:86px;
+    background-color: #7D9D9C;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    color:#38494b;
+    font-weight: 800;
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+button:hover{
+    background-color:#38494b;
+    border:#efefef 1px solid;
+    color: #7D9D9C;
+    transition: all 0.1s ease;
+}
+#getdata {
+    width: 90%;
+    margin: 0 auto;
+}
+#getdata tr td {
+    height: 5vh;
+    text-align: center;
+color: #38494b;
+    background-color: #efefef;
+    font-size: 18px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+}
+#getdata th{
+    height: 5vh;
+    font-size: 20px;
+    background-color: #7D9D9C;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
